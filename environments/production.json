@@ -1,0 +1,14 @@
+{
+  "name": "production",
+  "description": "for production nodes",
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+    "default_attributes": {
+        "root": {
+            "password": "$1$dLMJvXkK$Gjmp5R00ATHOSFJ0659Kq1"
+        }
+    },
+  "cookbook_versions": {
+	"fourthcoffee": "= 0.1.1"
+  }
+}

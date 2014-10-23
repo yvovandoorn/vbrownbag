@@ -1,0 +1,13 @@
+{
+  "name": "development",
+  "description": "for development nodes",
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+    "default_attributes": {
+        "root": {
+            "password": "$1$pOMRIXrx$CStAFcWJ8dpl2YQw6BaZw."
+        }
+    },
+  "cookbook_versions": {
+  }
+}
